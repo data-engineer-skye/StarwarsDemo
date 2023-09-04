@@ -1,0 +1,4 @@
+2023-09-04 03:54:06 [[32m INFO[0m] api_base.py - api_request[line:15] : Request mehod: get
+ Request URL: https://swapi.py4e.com/api/films/6/
+2023-09-04 03:54:07 [[32m INFO[0m] api_base.py - api_request[line:18] : Response status: 200
+2023-09-04 03:54:07 [[32m INFO[0m] test_question1.py - test_get_unique_species_count_by_film_id[line:21] : Result: 20
