@@ -5,12 +5,13 @@ import logging
 from api_objects.films_api import FilmsAPI
 from Util.compare import assert_check
 
+
 @allure.feature("Films")
 @allure.story("Please list all the film names and sort the name by episode_id.")
 def test_get_sorted_films_name(session):
     with allure.step("Get all films data"):
         films_api_obj = FilmsAPI(session)
-        films_api_obj.get_films_data()
+        films_api_obj.get_all_data()
         assert_check(films_api_obj.get_response_status(), 200)
 
     expect_films_count = films_api_obj.json_body['count']

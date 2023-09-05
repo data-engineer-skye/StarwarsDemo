@@ -8,10 +8,8 @@ from dotenv import load_dotenv
 def load_env(autouse=True):
     load_dotenv()
 
-
 @pytest.fixture(autouse=True)
 def session():
-    print(f'create session')
     session = requests.session()
     yield session
 
