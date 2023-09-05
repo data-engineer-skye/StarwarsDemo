@@ -1,4 +1,0 @@
-2023-09-04 03:54:07 [[32m INFO[0m] api_base.py - api_request[line:15] : Request mehod: get
- Request URL: https://swapi.py4e.com/api/films/
-2023-09-04 03:54:08 [[32m INFO[0m] api_base.py - api_request[line:18] : Response status: 200
-2023-09-04 03:54:08 [[32m INFO[0m] test_question2.py - test_get_sorted_films_name[line:22] : Result: ['The Phantom Menace', 'Attack of the Clones', 'Revenge of the Sith', 'A New Hope', 'The Empire Strikes Back', 'Return of the Jedi', 'The Force Awakens']
